@@ -54,6 +54,7 @@ const useNDKStore = create<NDKState>((set, get) => ({
     if (!get().isConnected) throw new Error('NDK not initialized');
     const ndk = get().ndk;
     if (!ndk) throw new Error('NDK is null');
+    console.log('yeet')
     return await ndk.fetchEvents(filter);
   },
   fetchUser: async (pubkey: string) => {
