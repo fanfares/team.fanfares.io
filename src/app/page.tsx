@@ -19,7 +19,7 @@ export default function Home() {
         <h2 className="px-4 whitespace-nowrap">Meet the team</h2>
         <hr className="border-gray-400 border-t w-full flex-grow"/>
       </div>
-      <section className="flex sm:flex-row flex-col items-start justify-between">
+      <section className="flex xl:flex-row flex-col items-start justify-between">
         <NostrProfile name="Simon" title="CEO" pubkey="db625e7637543ca7d7be65025834db318a0c7b75b0e23d4fb9e39229f5ba6fa7"/>
         <NostrProfile name="Arkinox" title="CTO" pubkey="e8ed3798c6ffebffa08501ac39e271662bfd160f688f94c45d692d8767dd345a"/>
         <NostrProfile name="Wemerson" title="Developer" pubkey="56d57bf11aed78a989a7f042a786e1f09c83b1e8360b0462cbf1377454657d1c"/>

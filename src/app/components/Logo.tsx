@@ -7,7 +7,8 @@ export default function Logo () {
   }
   return (
     <div onClick={visitFanFares} className="cursor-pointer">
-      <Image priority src={logo} alt="FanFares.io logo" width={250} height={250}/>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={logo.src} alt="FanFares.io logo" width={250} height={250}/>
       <h1 className="text-5xl text-center">FanFares</h1>
     </div>
   )
