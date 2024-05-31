@@ -1,3 +1,12 @@
+The team page for team.fanfares.io, which is also our NIP-05 domain (since Vercel won't allow us to use the root domain for NIP-05/.well-known).
+
+It features live nostr profiles for the team members. A nice exercise in NDK + Next.js + Zustand.
+
+![image](https://github.com/project-excalibur/team.fanfares.io/assets/99223753/21efd248-8aaf-4421-b0d5-c652b281bef2)
+
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
