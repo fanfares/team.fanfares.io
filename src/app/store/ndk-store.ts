@@ -41,7 +41,7 @@ const useNDKStore = create<NDKState>((set, get) => ({
     });
     await ndk.connect();
     // DEBUG ONLY
-    window.ndk = ndk;
+    // window.ndk = ndk;
     set({ ndk, isConnected: true });
   },
   fetchEvent: async (filter: NDKFilter) => {
